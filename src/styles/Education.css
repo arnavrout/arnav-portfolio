@@ -1,0 +1,74 @@
+/* src/styles/Education.css */
+
+.education-section {
+    padding: 3rem 1rem;
+    background-color: var(--background-color);
+  color: var(--text-color);
+    text-align: center;
+  }
+  
+  .education-section h2 {
+    font-size: 2.5rem;
+    color: #e94560;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .education-card {
+    background-color: #3a3f4a;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .education-icon {
+    font-size: 2.5rem;
+    color: #e94560;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .education-details {
+    text-align: left;
+  }
+  
+  .education-details h3 {
+    font-size: 1.5rem;
+    color: #f9f9f9;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-details p {
+    font-size: 0.95rem;
+    color: #c9c9c9;
+    line-height: 1.4;
+  }
+  
+  .education-card:nth-child(odd) .education-icon {
+    color: #4db6e9;
+  }
+  
+  .education-card:nth-child(even) .education-icon {
+    color: #fbbf24;
+  }
+  
